@@ -1,15 +1,28 @@
 ---
-layout: page
-title: About
+layout: about
+title: Кто мы
 permalink: /about/
 ---
 
-Some information about you!
+ПроЛюбовь — это проект Николая Воробьёва  
+и команды [ПроРеальность](http://prorealnost.com)
 
-### More Information
+# Николай Воробьёв
 
-A place to include any other types of information that you'd like to include about yourself.
+* Ведущий тренер компании ПроРеальность
+* Международный тренер и коуч с 12-летним опытом
+* Ведущий шоу «ПроЛюбовь» на телеканале 1+1
+* Автор книги «Реальная Любовь» и 15 тренингов
+* Провёл мастер-классы по отношениям в 7 городах от Праги до Алма-Аты
 
-### Contact me
+# Зачем всё это
 
-[email@domain.com](mailto:email@domain.com)
+Мы собираем [в блоге](/) ценную и работающую информацию об отношениях. И [отвечаем на вопросы](/ask/) по отношениям.
+
+# Обучение
+
+А ещё мы делаем [тренинги по отношениям](/products/)
+
+### Связь
+
+[prolubov@prorealnost.com](mailto:prolubov@prorealnost.com)

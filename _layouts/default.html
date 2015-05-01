@@ -27,8 +27,16 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            {% for link in site.navigation %}
+              {% assign current = nil %}
+              {% if page.url == link.url or page.layout == link.layout %}
+                {% assign current = 'current' %}
+              {% endif %}
+
+              <a class="{{ site.baseurl }}{{ current }}" href="{{ link.url }}">
+                {{ link.text }}
+              </a>
+            {% endfor %}
           </nav>
         </header>
       </div>
