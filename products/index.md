@@ -8,13 +8,13 @@ permalink: /products/
 
 ----
 
-## [Книга «Реальная любовь»](http://prolubov.prorealnost.com/offer/reallove)
+## [Книга «Реальная любовь»](/products/reallove/)
 
 Автор: Николай Воробьёв  
 Твёрдый переплёт  
 220 страниц
 
-[Подробности тут](http://prolubov.prorealnost.com/offer/reallove)
+[Подробности тут](/products/reallove/)
 
 ----
 
