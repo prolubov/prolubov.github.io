@@ -24,7 +24,7 @@ navigation:
 - text: Продукты
   url: /products/
   layout: project
-- text: Кто мы
+- text: Кто тут
   url: /about/
 
 # Includes an icon in the footer for each username you enter

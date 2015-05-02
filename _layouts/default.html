@@ -28,12 +28,12 @@
 
           <nav>
             {% for link in site.navigation %}
-              {% assign current = nil %}
+              {% assign active = nil %}
               {% if page.url == link.url or page.layout == link.layout %}
-                {% assign current = 'current' %}
+                {% assign active = 'active' %}
               {% endif %}
 
-              <a class="{{ site.baseurl }}{{ current }}" href="{{ link.url }}">
+              <a class="{{ active }}" href="{{ link.url }}">
                 {{ link.text }}
               </a>
             {% endfor %}

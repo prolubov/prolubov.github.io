@@ -1,0 +1,19 @@
+<div class="section contents bg-primary">
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      {% for item in include.contents %}
+        <div class="col-xs-4 col-xs-offset-{% cycle 2, 1 %}">
+          <i class="fa fa-check-circle-o fa-2x text-success" style="float: left; margin-left: -50px; margin-top: 0px;"></i>
+          <p style="font-size: 20px; margin-bottom: 2em;">
+            {{ item }}
+          </p>
+        </div>
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'even' %}
+          <div class="clearfix"></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
