@@ -1,8 +1,8 @@
 <div class="section contents bg-primary">
   <div class="container">
-    <!-- Example row of columns -->
+    <h2 class="text-center" style="margin-bottom: 60px;">{{ include.contents.title }}</h2>
     <div class="row">
-      {% for item in include.contents %}
+      {% for item in include.contents.items %}
         <div class="col-xs-4 col-xs-offset-{% cycle 2, 1 %}">
           <i class="fa fa-check-circle-o fa-2x text-success" style="float: left; margin-left: -50px; margin-top: 0px;"></i>
           <p style="font-size: 20px; margin-bottom: 2em;">
