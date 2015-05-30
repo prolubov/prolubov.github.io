@@ -271,6 +271,14 @@ nav {
   }
 }
 
+.post:after {
+  clear: both;
+}
+.post:after {
+  display: table;
+  content: " ";
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
