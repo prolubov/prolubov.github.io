@@ -16,6 +16,14 @@ permalink: /products/
 
 ----
 
+## [Как вернуть яркость в отношения](/products/bright-relationships/)
+
+Пошаговая инструкция
+
+[Подробности тут](/products/bright-relationships/)
+
+----
+
 ## [Как построить любящие отношения](/products/build-loving-relationships/)
 
 Запись бесплатного вебинара
