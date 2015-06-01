@@ -1,62 +1,15 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+---
+layout: base
+---
 
-    {% include meta.html %}
+{% include header.html %}
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<div class="margin"></div>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<div id="main" role="main" class="container">
+  {{ content }}
+</div>
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+<div class="margin"></div>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-static-top navbar-inverse">
-        <div class="container">
-          <a class="navbar-brand" href="/">ПроЛюбовь</a>
-          <ul class="nav navbar-nav navbar-main">
-            {% for link in site.navigation %}
-              {% assign active = nil %}
-              {% if page.url == link.url or page.layout == link.layout %}
-                {% assign active = 'active' %}
-              {% endif %}
-
-              <li class="{{ active }}">
-                <a href="{{ link.url }}">
-                  {{ link.text }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </nav><!-- /navbar -->
-    </header>
-
-    <div id="heads-up">
-      <div class="container">
-        <h1>Самый быстрый способ<br/>построить любящие отношения</h1>
-        <p class="lead">Просто, честно и без манипуляций</p>
-        <p><a class="btn btn-info"><b>Скачать</b> инструкцию для начинающих</a></p>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <p class="pull-right"><small>&copy; Николай Воробьёв 2015</small></p>
-        <p><small>Тебе повезёт в любви</small></p>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
-</html>
+{% include footer.html %}

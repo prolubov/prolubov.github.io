@@ -54,6 +54,6 @@ sections:
 
 {% for section in page.sections %}
 # {{ section.title }}
-<div class="flex-video widescreen"><iframe allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/{{ section.id }}?rel=0"></iframe></div>
+<iframe width="640" height="360" allowfullscreen="" frameborder="0" src="http://www.youtube.com/embed/{{ section.id }}?rel=0"></iframe>
 
 {% endfor %}
