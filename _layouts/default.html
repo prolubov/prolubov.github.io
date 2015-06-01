@@ -16,34 +16,6 @@
   </head>
 
   <body>
-    <!--
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            {% for link in site.navigation %}
-              {% assign active = nil %}
-              {% if page.url == link.url or page.layout == link.layout %}
-                {% assign active = 'active' %}
-              {% endif %}
-
-              <a class="{{ active }}" href="{{ link.url }}">
-                {{ link.text }}
-              </a>
-            {% endfor %}
-          </nav>
-        </header>
-      </div>
-    </div>
-    -->
-
     <header>
       <nav class="navbar navbar-static-top navbar-inverse">
         <div class="container">
