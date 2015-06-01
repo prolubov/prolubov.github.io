@@ -16,6 +16,7 @@
   </head>
 
   <body>
+    <!--
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -41,6 +42,37 @@
         </header>
       </div>
     </div>
+    -->
+
+    <header>
+      <nav class="navbar navbar-static-top navbar-inverse">
+        <div class="container">
+          <a class="navbar-brand" href="/">ПроЛюбовь</a>
+          <ul class="nav navbar-nav navbar-main">
+            {% for link in site.navigation %}
+              {% assign active = nil %}
+              {% if page.url == link.url or page.layout == link.layout %}
+                {% assign active = 'active' %}
+              {% endif %}
+
+              <li class="{{ active }}">
+                <a href="{{ link.url }}">
+                  {{ link.text }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav><!-- /navbar -->
+    </header>
+
+    <div id="heads-up">
+      <div class="container">
+        <h1>Самый быстрый способ<br/>построить любящие отношения</h1>
+        <p class="lead">Просто, честно и без манипуляций</p>
+        <p><a class="btn btn-info"><b>Скачать</b> инструкцию для начинающих</a></p>
+      </div>
+    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
@@ -48,9 +80,8 @@
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+        <p class="pull-right"><small>&copy; Николай Воробьёв 2015</small></p>
+        <p><small>Тебе повезёт в любви</small></p>
       </div>
     </div>
 
