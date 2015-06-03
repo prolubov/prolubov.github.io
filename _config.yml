@@ -24,6 +24,9 @@ navigation:
 - text: Продукты
   url: /products/
   layout: project
+- text: Организаторам
+  url: /org/
+  layout: project
 - text: Кто тут
   url: /about/
 
