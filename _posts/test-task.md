@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Тестовое задание для редактора
+permalink: /test-task/
 ---
 
 ## Кого мы ищем
