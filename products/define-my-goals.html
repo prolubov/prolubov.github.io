@@ -16,12 +16,13 @@ contents:
     - Какие цели самые важные
     - И в каких областях их стоит поставить
 author: 
+  title: "Кто ведёт программу"
   name: "Николай Воробьев"
   photo: "/images/nickvorobiov.jpg"
   text: "Ведущий тренер компании ПроРеальность\n\nМеждународный тренер и коуч с 12-летним опытом\n\nВедущий и тренер в 4 телевизионных и радио шоу об отношениях и личной эффективности\n\nАвтор 5 книг и 15 тренингов об отношениях, мотивации, уверенности, бизнесе, продажах и личной эффективности\n\nПровёл тренинги более чем в 20 городах России и Европы"
 ---
 
-{% include sections/header.html header=page.header %}
+{% include sections/header.html header=page.header bg="bg-primary" %}
 
 <div class="section bg-clouds">
   <div class="container">
@@ -79,7 +80,7 @@ author:
   </div>
 </div>
 
-{% include sections/contents.html contents=page.contents %}
+{% include sections/contents.html contents=page.contents bg="bg-primary" %}
 
 <div class="section" id="pricing">
   <div class="container">
@@ -110,4 +111,4 @@ author:
   </div>
 </div>
 
-{% include sections/author.html author=page.author title='Кто ведёт программу' %}
+{% include sections/author.html author=page.author bg="bg-clouds" %}
