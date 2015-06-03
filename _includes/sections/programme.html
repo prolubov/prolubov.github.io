@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section {{ include.bg }}">
   <div class="container">
     <h1 class="text-center">Программа курса</h1>
     <!-- Example row of columns -->
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col-sm-7">
-        <div class="tab-content" style="border: 1px solid #ddd; padding: 0 40px 40px 40px;">
+        <div class="tab-content" style="border: 1px solid #ddd; padding: 0 40px 40px 40px; background: #fff;">
           {% for module in include.programme %}    
             <div class="tab-pane {% if forloop.first %} active {% endif %}" id="module-{{ forloop.index }}">
               <h3>Блок №{{ forloop.index }}</h3>

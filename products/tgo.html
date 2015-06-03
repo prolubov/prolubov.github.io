@@ -20,6 +20,7 @@ contents:
     - "Как получать поддержку, любовь и заботу"
     - "Как начать чувствовать себя нужным"
 author: 
+  title: "Автор курса"
   name: "Николай Воробьев"
   photo: "/images/nickvorobiov.jpg"
   text: "Ведущий тренер компании ПроРеальность\n\nМеждународный тренер и коуч с 12-летним опытом\n\nВедущий шоу «ПроЛюбовь» на телеканале 1+1\n\nАвтор книги «Реальная Любовь» и 15 тренингов\n\nПровёл мастер-классы по отношениям в 7 городах от Праги до Алма-Аты"
@@ -92,13 +93,19 @@ programme:
       - "Стратегия создания доверия в отношениях"
       - "Метод создания влюблённости «36 вопросов»"
       - "Техника длительного поддержания влюблённости"
+testimonials:
+  title: Выпускники довольны
+  name: Анна Лопушок
+  photo: http://cs622224.vk.me/v622224762/2918b/wNuA61g6gmw.jpg
+  text: После тренинга появился Мужчина, который с первого дня сказал, что я классная :)
 
 ---
 
-{% include sections/header.html header=page.header %}
-{% include sections/features.html features=page.features %}
-{% include sections/contents.html contents=page.contents %}
-{% include sections/programme.html programme=page.programme %}
-{% include sections/author.html author=page.author title='Кто ведёт программу' %}
+{% include sections/header.html header=page.header bg="bg-primary" %}
+{% include sections/features.html features=page.features bg="" %}
+{% include sections/contents.html contents=page.contents bg="bg-primary" %}
+{% include sections/programme.html programme=page.programme bg="" %}
+{% include sections/author.html author=page.author title='Кто ведёт программу' bg="bg-clouds" %}
 <a id="pricing"></a>
-{% include sections/pricing.html pricing=page.pricing %}
+{% include sections/pricing.html pricing=page.pricing bg="" %}
+{% include sections/testimonials.html testimonials=page.testimonials bg="bg-clouds" %}
