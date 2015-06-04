@@ -26,9 +26,10 @@ navigation:
 - text: Ответы
   url: /ask/
   layout: answer
-- text: Продукты
-  url: /products/
-  layout: project
+- text: Тренинг
+  url: /tgo/
+- text: Коучинг
+  url: /coaching/
 - text: Организаторам
   url: /org/
   layout: project
