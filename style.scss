@@ -84,7 +84,7 @@ header {
     }
   }
 
-  @media (min-width: $grid-float-breakpoint) {
+  @media (min-width: $screen-md) {
     .container {
       .navbar-main {
         float: right;
