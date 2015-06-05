@@ -183,3 +183,15 @@ header {
   color: #fff;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+
+.section.features {
+  h1 {
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+    margin-top: 1em;
+  }
+}
