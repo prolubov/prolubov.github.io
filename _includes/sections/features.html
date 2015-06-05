@@ -1,6 +1,9 @@
 <div class="section features {{ include.bg }}">
   <div class="container">
-    <!-- Example row of columns -->
+    {% if include.features.title %}
+      <h1 class="text-center" style="padding-bottom: 40px;">{{ include.features.title }}</h1>
+    {% endif %}
+
     <div class="row">
       <div class="col-xs-4 text-center">
         <span class="fa-stack fa-3x">
