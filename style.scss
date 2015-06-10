@@ -108,20 +108,28 @@ header {
 //
 
 #heads-up {
-  background: $navbar-inverse-bg;
+  background-color: $navbar-inverse-bg;
+
   color: $navbar-inverse-color;
   padding-bottom: 25px;
   text-align: center;
+
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
 //
 // footer
 //
 
-.wrapper-footer {
+.footer {
   padding: 5px 0;
   background: $navbar-inverse-bg;
   color: $navbar-inverse-color;
+  font-size: $font-size-small;
+
+  a {
+    color: #bdc3c7;
+  }
 }
 
 //
