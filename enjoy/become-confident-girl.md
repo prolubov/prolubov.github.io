@@ -5,7 +5,7 @@ permalink: /enjoy/become-confident-girl/
 
 # 15 способов стать более уверенной девушкой
 
-Картинка: GIRL POWER
+![](/images/girl-power.jpg)
 
 Больше всего на свете я хочу, чтобы ты знала, что ты — крутая красотка.
 
@@ -25,4 +25,10 @@ permalink: /enjoy/become-confident-girl/
 
 Вот 15 способов, которые позволят тебе стать гораздо более уверенной девушкой:
 
-(https://soundcloud.com/nickvorobiov/become-confident-girl/s-ySLSx)[https://soundcloud.com/nickvorobiov/become-confident-girl/s-ySLSx]
+**[https://soundcloud.com/nickvorobiov/become-confident-girl/s-ySLSx](https://soundcloud.com/nickvorobiov/become-confident-girl/s-ySLSx)**
+
+На самом деле, их 17 :)
+
+Наслаждайся!
+
+Твой Николай Воробьёв
