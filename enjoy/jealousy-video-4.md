@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 title: Как перестать ревновать
 ---
 
