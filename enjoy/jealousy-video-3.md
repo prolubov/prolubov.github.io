@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 title: У тебя нет препятствий быть счастливым
 ---
 
