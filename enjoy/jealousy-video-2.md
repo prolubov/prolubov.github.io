@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 title: Могу ли я быть счастлив в отношениях?
 ---
 
