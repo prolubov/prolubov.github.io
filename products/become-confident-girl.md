@@ -57,7 +57,7 @@ author:
 {% include sections/contents.html contents=page.contents bg="bg-primary" %}
 {% include sections/author.html author=page.author title='Кто ведёт программу' bg="bg-clouds" %}
 
-<div class="section">
+<div class="section" id="pricing">
   <div class="container">
     <h1 class="text-center">
       Получить инструкцию
