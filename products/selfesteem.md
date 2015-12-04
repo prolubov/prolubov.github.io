@@ -5,7 +5,7 @@ permalink: /selfesteem/
 header: 
   title: "Быстрое поднятие самооценки"
   subtitle: "Практическое пособие, позволяющее привлечь в свою жизнь харизматичного мужчину"
-  background: "/images/bg-thumbsup.jpg"
+  background: "/images/bg-wood.jpg"
   buttontitle: "Заказать"
   morebuttontitle: "Узнать больше"
 
@@ -31,15 +31,22 @@ author:
 
 ---
 
-<div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
+<div class="section text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 70px 0; text-shadow: 0 3px 2px rgba(255,255,255,.9);">
   <div class="container">
-    <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
-    <p class="lead">
-      {{ page.header.subtitle }}
-    </p>
-    <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
-    &nbsp;
-    <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+    <div class="row">
+      <div class="col-xs-5">
+        <img class="img-responsive" src="/images/selfesteem-book-cover.png"/>
+      </div>
+      <div class="col-xs-7" style="background:rgba(255,255,255,0.6); padding: 10px;">
+        <h1 style="margin-top: 0; font-size: 64px; line-height: 1;">{{ page.header.title }}</h1>
+        <p class="lead">
+          {{ page.header.subtitle }}
+        </p>
+        <a class="btn btn-danger" href="#pricing" style="text-shadow: none;"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+        &nbsp;
+        <a class="btn btn-info" href="#more" style="text-shadow: none;"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -47,6 +54,33 @@ author:
 
 {% include sections/contents.html contents=page.contents bg="" %}
 {% include sections/author.html author=page.author bg="bg-clouds" %}
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <p class="text-center"><img src="/images/testimonial1.jpg" /></p>
+        <p class="text-center">
+          <b>Анна</b>
+        </p>
+        <p class="text-center">
+          Стала больше любить себя, глубже осознала свою женственность, сексуальность и то, как это влияет на отношения с другими людьми. И главное, встретила самого лучшего в мире мужчину. Самого сильного, самого доброго, самого любящего и заботливого…
+        </p>
+      </div>
+      <div class="col-xs-6">
+        <p class="text-center"><img src="/images/testimonial2.jpg" /></p>
+        <p class="text-center">
+          <b>Сергей</b>
+        </p>
+        <p class="text-center">
+          Меня больше не парит мнение окружающих, я не стесняюсь ничего и никого, я легко общаюсь с прохожими на улице, всегда готов всем помочь, мне приятно делиться и дарить доброту людям.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr/>
 
 <div class="section" id="pricing">
   <div class="container">
