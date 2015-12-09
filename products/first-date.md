@@ -159,7 +159,7 @@ author:
       </div>
     {% endfor %}
     </div>
-    <p class="lead text-center">Уже во время курса ты сможешь <b>с легкостью знакомиться и влюблять в себя</b> тех мужчин, которые тебе понравятся</p>
+    <p class="lead text-center">Если ты выполнишь все задания курса, и после нескольких свиданий ни один мужчина тебе не позвонит — я верну тебе деньги</p>
   </div>
 </div>
 
@@ -174,7 +174,7 @@ author:
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="well">
-          <form action="http://prolubov.prorealnost.com/shot/93" method="POST">
+          <form action="http://prolubov.prorealnost.com/shot/95" method="POST">
             <div class="form-group">
               <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
             </div>
