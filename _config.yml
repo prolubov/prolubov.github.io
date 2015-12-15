@@ -27,7 +27,7 @@ navigation:
   url: /ask/
   layout: answer
 - text: Тренинг
-  url: /tgo/
+  url: /ibo/
 - text: Коучинг
   url: /coaching/
 - text: Организаторам
